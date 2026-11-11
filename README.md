@@ -4,6 +4,8 @@
 **Дисциплина:** Основы кроссплатформенного программирования
 **Время выполнения:** 4 часа
 
+**Репозиторий на GitHub:** https://github.com/kamiwokery/krossplatform-labs
+
 Этот репозиторий — результат работы: все лабораторные работы (ЛР1–ЛР14) перенесены в единый Git-репозиторий, каждая в своей ветке, и слиты в основную ветку `master` обычным merge с созданием merge-коммита.
 
 ## Структура репозитория
@@ -59,7 +61,7 @@ git checkout -b lr3
 ## Публикация на GitHub
 
 ```bash
-git remote add origin https://github.com/<username>/krossplatform-labs.git
+git remote add origin https://github.com/kamiwokery/krossplatform-labs.git
 git push -u origin master
 git push origin lr1 lr2 lr3 lr4 lr5 lr6 lr7 lr8 lr9 lr10 lr11 lr12 lr13 lr14
 ```
